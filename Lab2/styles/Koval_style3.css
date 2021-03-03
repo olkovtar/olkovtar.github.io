@@ -1,0 +1,65 @@
+body {background-color: rgb(226, 209, 209);}
+#task3_table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+#task3_table th {
+    border: 3px dashed rgb(0, 56, 139);
+    background-color: rgb(199, 184, 184);
+}
+
+#task3_table #task3_table_th2 {
+    font-weight: normal;
+}
+
+#task3_table #tr2 td {
+    border-left: 3px dashed darkred;
+}
+
+#tr2 #td4 {
+    border-right: 3px dashed darkred;
+}
+
+
+#tr2 td {
+    width: 25%;
+}
+
+#tr2 td img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tr2 figcaption {
+    text-align: center;
+}
+
+audio, video {
+    margin-top: 1%;
+}
+
+#a_audio, #a_video {
+    margin-top: .5%;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+video, #a_audio, #a_video {
+    display: block;
+}
+
+.classmate_info {
+    text-align: left;
+    padding-left: 1%;
+}
+
+.classmate {
+    padding-top: .5%;
+}
+
+.classmate_info audio {
+    width: 250px;
+    height: 20px;
+}
